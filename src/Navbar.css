@@ -1,12 +1,27 @@
 .navbar {
     display: flex;
     justify-content: space-between ;
-    width: 100%;
+    width: auto;
     align-items: center;
     padding: 10px;
     border: 1px solid;
     background-color: rgb(159, 159, 198);
   }
+.nav-home a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Keeps the default text color */
+}
+.nav-home:hover a {
+  color: #f3f6f6; /* Changes color on hover */
+}
+
+.nav-item a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Keeps the default text color */
+}
+.nav-item:hover a {
+  color: #f3f6f6; /* Changes color on hover */
+}
   
   .nav-home {
     /* pushes everything to right */

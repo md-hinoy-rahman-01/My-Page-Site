@@ -1,15 +1,15 @@
 import React from 'react';
 
 import Navbar from './Navbar.jsx';
-import Welcome from './Welcome.jsx';
-function Home()
+import AcademicsContent from './AcademicsContent.jsx';
+function Academics()
 {
     return (
         <>
         <Navbar />
-        <Welcome />
+        <AcademicsContent />
         </>
     );
 };
 
-export default Home;
+export default Academics;
