@@ -1,14 +1,19 @@
 .navbar {
     display: flex;
     justify-content: space-between ;
+    width: 100%;
     align-items: center;
     padding: 10px;
+    border: 1px solid;
+    background-color: rgb(159, 159, 198);
   }
   
   .nav-home {
-    margin-right: auto;
+    /* pushes everything to right */
+    margin-right: auto; 
   }
 
   .nav-item {
+    /* all the right items starts put margin to left  */
     margin-left: 20px;
   }
