@@ -1,0 +1,46 @@
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.side-panel {
+  width: 300px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Ensures children stack vertically */
+  align-items: center; /* Centers content */
+}
+
+.main-body {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the image */
+}
+
+.profile-picture {
+  width: 150px;
+  height: 160px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-container h2{
+    text-align: center; /* Centers the heading */
+    margin: 10px 0; /* Adds spacing around the heading */
+}
+
+.profile-container p,
+.profile-container a {
+  text-align: left; /* Ensures text remains left-aligned */
+  width: 100%; /* Makes sure text alignment applies properly */
+  margin: 5px 0; /* Maintains spacing between elements */
+}
