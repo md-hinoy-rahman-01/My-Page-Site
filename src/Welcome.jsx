@@ -6,7 +6,7 @@ function Welcome() {
     <div className="main-container">
       <div className="side-panel">
         <div className="profile-container">
-          <img className="profile-picture" src="./public/images/profile_picture.jpg" alt="Md Hinoy Rahman" />
+          <img className="profile-picture" src="/images/profile_picture.jpg" alt="Md Hinoy Rahman" />
           <h2>Md Hinoy Rahman</h2>
           <br/>
           <p>Phone: +353 830290037</p>
